@@ -71,7 +71,7 @@ footer {
     padding: 20px;
     background-color: #eeeeee;
     border-radius: 10px;
-    margin: 15px 0;
+    margin: 75px 0 20px 0;
 }
 
 /* Resize content at 550px and below to fit screen */
@@ -116,6 +116,6 @@ footer {
 
     footer {
         border-radius: 5px;
-        margin: 40px 0 20px 0;
+        margin: 50px 0 20px 0;
     }
 }
