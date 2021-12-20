@@ -9,12 +9,17 @@ header {
     font-size: 2rem;
 }
 
-h1, h2, header p, footer {
+h1, h2, h3, footer {
     text-align: center;
 }
 
-header p, header h1 {
+h3, h1 {
     margin: 0;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
 }
 
 img {
@@ -77,6 +82,10 @@ footer {
 
     header {
         font-size: 1.1rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
     }
 
     img {
