@@ -68,3 +68,45 @@ footer {
     border-radius: 10px;
     margin: 15px 0;
 }
+
+/* Resize content at 550px and below to fit screen */
+@media screen and (max-width: 550px) {
+    body {
+        width: 300px;
+    }
+
+    header {
+        font-size: 1.1rem;
+    }
+
+    img {
+        border-radius: 2px;
+        width: 300px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    section {
+        font-size: 1.1rem;
+    }
+
+    hr {
+        width: 300px;
+    }
+
+    ul li {
+        text-indent: -50px;
+        padding: 10px 0;
+    }
+
+    li::before {
+        margin-right: 2px;
+    }
+
+    footer {
+        border-radius: 5px;
+        margin: 40px 0 20px 0;
+    }
+}
