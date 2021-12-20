@@ -1,0 +1,77 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    margin: auto;
+}
+
+header {
+    padding: 10px 0 15px 0;
+    font-size: 2rem;
+}
+
+h1, h2, header p, footer {
+    text-align: center;
+}
+
+header p, header h1 {
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+ul {
+    list-style-type:none
+}
+
+ul li::before {
+    content: "->";
+    margin-right: 5px;
+}
+
+/* body {
+    background-image: url("./img/bg-tile.jpg");
+    background-repeat: repeat;
+    background-size:500px;
+} */
+
+
+section {
+    font-size: 1.2rem;
+}
+
+hr {
+    width: 500px;
+    margin: 50px auto;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    font-size: 1.1rem;
+}
+
+a:active {
+    color: red;
+}
+
+footer {
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin: 15px 0;
+}
