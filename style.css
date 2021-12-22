@@ -1,121 +1,126 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 500px;
-    margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 500px;
+  margin: auto;
 }
 
 header {
-    padding: 10px 0 15px 0;
-    font-size: 2rem;
+  height: 8rem;
+  font-size: 2rem;
 }
 
-h1, h2, h3, footer {
-    text-align: center;
+h1,
+h2,
+h3,
+footer {
+  text-align: center;
 }
 
-h3, h1 {
-    margin: 0;
+h3,
+h1 {
+  margin: 0;
 }
 
 h3 {
-    font-size: 1.8rem;
-    font-weight: 400;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
 
 img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 3px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
 }
 
 section {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 hr {
-    width: 500px;
-    margin: 50px auto;
+  width: 500px;
+  margin: 50px auto;
 }
 
 ul {
-    list-style-type:none
+  list-style-type: none;
 }
 
 ul li::before {
-    content: "->";
-    margin-right: 5px;
+  content: "->";
+  margin-right: 5px;
 }
 
 a {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 a:link {
-    text-decoration: none;
-    color: darkblue;
+  text-decoration: none;
+  color: darkblue;
 }
 
 a:visited {
-    color: gray;
+  color: gray;
 }
 
 a:hover {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 a:active {
-    color: red;
+  color: red;
 }
 
 footer {
-    padding: 20px;
-    background-color: #eeeeee;
-    border-radius: 10px;
-    margin: 75px 0 20px 0;
+  padding: 20px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  margin: 75px 0 20px 0;
 }
 
 /* Resize content at 550px and below to fit screen */
 @media screen and (max-width: 550px) {
-    body {
-        width: 300px;
-    }
+  body {
+    width: 300px;
+  }
 
-    header {
-        font-size: 1.1rem;
-    }
+  header {
+    font-size: 1.1rem;
+    height: 4.5rem;
+  }
 
-    h3 {
-        font-size: 1.2rem;
-    }
+  h3 {
+    font-size: 1.2rem;
+  }
 
-    img {
-        border-radius: 2px;
-        width: 300px;
-    }
+  img {
+    border-radius: 2px;
+    width: 300px;
+  }
 
-    h2 {
-        font-size: 1.2rem;
-    }
+  h2 {
+    font-size: 1.2rem;
+  }
 
-    section {
-        font-size: 1.1rem;
-    }
+  section {
+    font-size: 1.1rem;
+  }
 
-    hr {
-        width: 300px;
-    }
+  hr {
+    width: 300px;
+  }
 
-    ul li {
-        text-indent: -50px;
-        padding: 10px 0;
-    }
+  ul li {
+    text-indent: -50px;
+    padding: 10px 0;
+  }
 
-    li::before {
-        margin-right: 2px;
-    }
+  li::before {
+    margin-right: 2px;
+  }
 
-    footer {
-        border-radius: 5px;
-        margin: 50px 0 20px 0;
-    }
+  footer {
+    border-radius: 5px;
+    margin: 50px 0 20px 0;
+  }
 }
